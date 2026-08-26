@@ -10,4 +10,6 @@ Otra actualización
 
 Cambios desde developer 01
 
-Brandom es gaysitoooooo
+Brandon es gaysitoooooo
+
+Realizar el pull antes de subir cambios !important
