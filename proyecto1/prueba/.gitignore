@@ -430,3 +430,5 @@ FodyWeavers.xsd
 
 #Elimina este archivo de simulacion
 appsettings.json
+
+obj/
