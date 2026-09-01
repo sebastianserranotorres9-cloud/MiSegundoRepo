@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/MiSegundoRepo/proyecto1/prueba/prueba.csproj": {}
+    "/Users/sebastianserranotorres/MiSegundoRepo/proyecto1/prueba/prueba.csproj": {}
   },
   "projects": {
-    "/workspaces/MiSegundoRepo/proyecto1/prueba/prueba.csproj": {
+    "/Users/sebastianserranotorres/MiSegundoRepo/proyecto1/prueba/prueba.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/MiSegundoRepo/proyecto1/prueba/prueba.csproj",
+        "projectUniqueName": "/Users/sebastianserranotorres/MiSegundoRepo/proyecto1/prueba/prueba.csproj",
         "projectName": "prueba",
-        "projectPath": "/workspaces/MiSegundoRepo/proyecto1/prueba/prueba.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/MiSegundoRepo/proyecto1/prueba/obj/",
+        "projectPath": "/Users/sebastianserranotorres/MiSegundoRepo/proyecto1/prueba/prueba.csproj",
+        "packagesPath": "/Users/sebastianserranotorres/.nuget/packages/",
+        "outputPath": "/Users/sebastianserranotorres/MiSegundoRepo/proyecto1/prueba/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "/Users/sebastianserranotorres/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -24,6 +24,7 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -38,11 +39,18 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -59,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.200/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

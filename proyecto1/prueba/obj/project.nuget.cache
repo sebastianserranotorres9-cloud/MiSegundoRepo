@@ -1,8 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "8WXfGZAkjEg=",
+  "dgSpecHash": "QjgKAolfM/4=",
   "success": true,
-  "projectFilePath": "/workspaces/MiSegundoRepo/proyecto1/prueba/prueba.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "projectFilePath": "/Users/sebastianserranotorres/MiSegundoRepo/proyecto1/prueba/prueba.csproj",
+  "expectedPackageFiles": [
+    "/Users/sebastianserranotorres/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "El paquete \"Newtonsoft.Json\" 12.0.3 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
+      "projectPath": "/Users/sebastianserranotorres/MiSegundoRepo/proyecto1/prueba/prueba.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/sebastianserranotorres/MiSegundoRepo/proyecto1/prueba/prueba.csproj",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }
