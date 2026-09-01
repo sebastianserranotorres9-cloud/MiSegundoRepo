@@ -19,4 +19,4 @@ var connectionString = document.RootElement
 Console.WriteLine("Simulación de cadena de conexión:");
 Console.WriteLine(connectionString ?? "No se encontró la cadena de conexión.");
 
-string github_token = "ghp_1234567890abcdefghijklmnopqrstuvwx"
+string github_token = "ghp_1234567890abcdefghijklmnopqrstuvwx";
