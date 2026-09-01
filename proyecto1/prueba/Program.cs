@@ -19,5 +19,4 @@ var connectionString = document.RootElement
 Console.WriteLine("Simulación de cadena de conexión:");
 Console.WriteLine(connectionString ?? "No se encontró la cadena de conexión.");
 
-string stripe_api_key = "sk_test_51N0g7cJ8k1Z5Q9z1F234567890123456";
-
+string github_token = "ghp_1234567890abcdefghijklmnopqrstuvwx"
